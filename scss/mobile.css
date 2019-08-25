@@ -1,0 +1,53 @@
+@media screen and (max-width: 766px) {
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 5%;
+  }
+  nav h2 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 100%;
+            flex: 1 100%;
+    margin: auto;
+    text-align: center;
+  }
+  nav ul {
+    display: none;
+  }
+  #hero .hero {
+    padding: 5%;
+  }
+  #overview .container {
+    max-width: 75%;
+  }
+  #skills {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  #skills .container {
+    max-width: 75%;
+  }
+  #contact {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  #contact .container {
+    padding: 5%;
+  }
+  #contact .container h1 {
+    font-size: 300% !important;
+  }
+  #contact nav {
+    display: none;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */
